@@ -19,9 +19,16 @@
 }
 
 .title h1{
+  font-family: "Nunito Sans";
+  font-weight: 400;
   font-size: 60px;
   color: white;
 }
+
+.title span {
+  font-weight: 700;
+}
+
 
 .title-header {
   display: flex;
@@ -74,7 +81,7 @@
   padding: 0 30px;
   border-radius: 20px;
   color: black;
-  background-color: white;
+  background-color: #D9D9D9;
   gap: 50px;
   width: 804px;
   height: 257px;

@@ -35,7 +35,7 @@ function App() {
       <div className="container-main">
       <div className="title">
         <FaGithub size={60} />
-        <h1>Perfil GitHub</h1>
+        <h1>Perfil <span>GitHub</span></h1>
       </div>
       <div className="input-search">
         <input
