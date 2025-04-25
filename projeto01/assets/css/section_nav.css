@@ -28,7 +28,8 @@
 }
 
 .header-top p {
-  margin-bottom: 0;
+  margin: 0 !important;
+  margin-bottom: 0 !important;
 }
 
 .d-flex.align-items-center {
@@ -72,6 +73,7 @@
 }
 
 .div-quantidade p {
+  margin-bottom: 0 !important;
   text-align: center;
   margin: 0 auto;
 }
@@ -89,6 +91,8 @@
 }
 
 .header-top span {
+  margin-bottom: 0;
+  bottom: 0;
   padding-left: 8px;
   font-weight: 100;
 }
