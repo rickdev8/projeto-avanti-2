@@ -151,14 +151,18 @@ document.addEventListener("DOMContentLoaded", function () {
     console.warn("Elementos do menu de departamentos não encontrados.");
   }
 
-  const divinputsearch = document.querySelector('.result-search')
-  const result = document.getElementById('result')
-  const inputvalue = document.getElementById('inputsearch')
-
+  const divinputsearch = document.querySelector('.result-search');
+  const buttonsrc = document.getElementById('buttonsrc');
+  const inputvalue = document.getElementById('inputsearch');
+  
   document.addEventListener('keydown', (e) => {
     const target = e.target;
     if (target && target.id === 'inputsearch' && e.key === 'Enter') {
-      divinputsearch.innerHTML = divs.divsearch.replace('{text}', inputvalue.value)
+      divinputsearch.innerHTML = divs.divsearch.replace('{text}', inputvalue.value);
     }
+  });
+  
+  buttonsrc.addEventListener('click', () => {
+    divinputsearch.innerHTML = divs.divsearch.replace('{text}', inputvalue.value);
   });
 });

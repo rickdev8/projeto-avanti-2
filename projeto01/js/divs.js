@@ -622,6 +622,7 @@ const headermobile = `
     <div class="search-bar">
       <input id="inputsearch" type="text" placeholder="Digite aqui o que você procura" />
       <img
+      id="buttonsrc"
         src="img/search_magnifier_icon_145939.png"
         alt="Ícone de busca"
         class="search-icon"
@@ -647,6 +648,7 @@ const headerpc = `
       <div class="form-controll">
         <input id="inputsearch" type="text" placeholder="Digite aqui o que você procura" />
         <img
+          id="buttonsrc"
           src="img/search_magnifier_icon_145939.png"
           alt="Ícone de busca"
         />
