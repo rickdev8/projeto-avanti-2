@@ -1,0 +1,41 @@
+.container-avanti {
+    position: relative;
+    width: 100%;
+    height: 660px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  .container-avanti img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .text-avanti {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    height: 132px !important;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white);
+    background-color: var(--primary-color);
+    text-align: center;
+    font-size: 16px !important;
+    font-weight: bold;
+  }
+  
+  .text-avanti p {
+    font-family: var(--font-secondary);
+    font-weight: 400;
+    font-size: 30px !important;
+    line-height: 140%;
+  }
+  
+  
