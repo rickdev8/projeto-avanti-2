@@ -258,6 +258,10 @@
     .swiper-slide {
       width: 358px;
     }
+
+    .titles{
+      width: 370px;
+    }
   
     .mySwiper {
       height: auto;
