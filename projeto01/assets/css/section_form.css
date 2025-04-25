@@ -39,7 +39,7 @@
   }
   
   .div-form {
-    width: 1031px;
+    width: 100%;
     height: 48px;
     display: flex;
     flex-wrap: wrap;
