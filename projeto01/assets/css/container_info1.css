@@ -1,6 +1,6 @@
 .section-info-1 {
     display: flex;
-    margin: 40px auto;
+    margin: 50px auto;
     width: 1177px;
     height: 747px;
   }
@@ -31,6 +31,7 @@
   }
   
   .text-content {
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
