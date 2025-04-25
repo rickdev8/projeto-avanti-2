@@ -96,6 +96,11 @@
   background-color: transparent;
 }
 
+.input-icon:hover{
+  transition: 0.4s ease-in-out;
+  background-color: #0057b9;
+}
+
 .card h1{
   font-size: 20px;
   font-weight: 700;
@@ -136,6 +141,7 @@
 }
 
 .input-icon{
+  transition: 0.4s ease-in-out;
   background-color: #0366d6;
   width: 62px;
   height: 62px;
@@ -145,7 +151,6 @@
   border-radius: 10px;
 }
 
-/* From Uiverse.io by aryamitra06 */ 
 .loader {
   margin-top: 80px;
   display: flex;
