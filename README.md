@@ -1,54 +1,69 @@
-# React + TypeScript + Vite
+🚀 Projeto Avanti 2
+Este repositório contém o código-fonte do Teste 2 AVANTI, desenvolvido com foco em responsividade e interatividade utilizando HTML, CSS, JavaScript e TypeScript.​
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🔗 Acesse o repositório: github.com/rickdev8/projeto-avanti-2
 
-Currently, two official plugins are available:
+✨ Funcionalidades
+✅ Layout responsivo adaptado para dispositivos móveis e desktops
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✅ Componentes interativos desenvolvidos com JavaScript e TypeScript
 
-## Expanding the ESLint configuration
+✅ Estilização moderna utilizando CSS3
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+✅ Estrutura de projeto organizada para facilitar a manutenção e escalabilidade
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+🛠 Tecnologias Utilizadas
+HTML5 – Estruturação semântica do conteúdo
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+CSS3 – Estilização com foco em responsividade
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+JavaScript (ES6+) – Interatividade e manipulação do DOM
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+TypeScript – Superset do JavaScript para tipagem estática e desenvolvimento mais robusto
+
+Vite – Ferramenta de build rápida para projetos modernos
+
+📁 Estrutura de Diretórios
+
+projeto-avanti-2/
+├── index.html                 # Página principal
+├── src/
+│   ├── assets/
+│   │   └── (imagens e outros recursos)
+│   ├── components/
+│   │   └── (componentes reutilizáveis)
+│   ├── styles/
+│   │   └── style.css          # Estilos personalizados
+│   ├── main.ts                # Script principal em TypeScript
+│   └── (outros arquivos e pastas)
+├── vite.config.ts             # Configuração do Vite
+├── package.json               # Configuração de pacotes
+└── README.md                  # Documentação do projeto
+📦 Como Executar o Projeto
+Clone o repositório:
+
+git clone https://github.com/rickdev8/projeto-avanti-2.git
+Acesse o diretório do projeto:
+
+cd projeto-avanti-2
+Instale as dependências:
+
+npm install
+Execute o projeto localmente:
+
+npm run dev
+O projeto estará disponível em http://localhost:5173/ ou na porta configurada pelo Vite.
+
+📥 Clone para sua máquina local:
+
+git clone https://github.com/seu-usuario/projeto-avanti-2.git
+🌿 Crie uma nova branch para sua feature:
+
+git checkout -b minha-feature
+✍️ Faça suas alterações e commit:
+
+git commit -m "feat: adicionei nova funcionalidade"
+🚀 Envie para o repositório remoto:
+
+git push origin minha-feature
+📩 Abra um Pull Request para análise!
