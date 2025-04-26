@@ -616,7 +616,7 @@ const headermobile = `
       <img src="img/logo.png" alt="Logo" class="icon-logo" />
       <div class="cart-container">
         <img src="img/carrinho.png" alt="Carrinho" class="icon-cart" />
-        <span class="cart-count">3</span>
+        <span class="cart-count">2</span>
       </div>
     </div>
     <div class="search-bar">
@@ -672,7 +672,7 @@ const headerpc = `
           alt="Ícone de carrinho"
         />
         <div class="div-quantidade">
-          <p>3</p>
+          <p>2</p>
         </div>
       </div>
     </div>
